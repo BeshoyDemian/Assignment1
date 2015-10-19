@@ -9,9 +9,9 @@ private:
 	double total_val;
 	void set_tot() { total_val = shares * share_val; }
 public:
-	Stock(); // default constructor
+	Stock(); 
 	Stock(const std::string & co, long n, double pr);
-	~Stock() {} // do-nothing destructor
+	~Stock() {} 
 	void buy(long num, double price);
 	void sell(long num, double price);
 	void update(double price);

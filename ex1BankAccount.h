@@ -2,17 +2,15 @@
 // 5-This example use char arrays to hold the character data, but you could use string
 #include "stdafx.h"
 #include <cstring>
-// class definition
 class BankAccount
 {
 private:
-	char name[40]; // or std::string name;
-	char acctnum[25]; // or std::string acctnum;
+	char name[40]; 
+	char acctnum[25];
 	double balance;
 public:
 	BankAccount(const char * client, const char * num, double bal = 0.0);
-	//or BankAccount(const std::string & client,
-	// const std::string & num, double bal = 0.0);
+	
 	void show(void) const;
 	void deposit(double cash);
 	void withdraw(double cash);

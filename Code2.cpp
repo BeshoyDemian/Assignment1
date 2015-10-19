@@ -6,12 +6,12 @@ using std::endl;
 
 int main() {
 	Person one; // use default constructor
-	Person two("Smythecraft"); // use #2 with one default argument
-	Person three("Dimwiddy", "Sam"); // use #2, no defaults
+	Person two("Smythecraft"); 
+	Person three("Dimwiddy", "Sam"); 
 	one.Show();
 	cout << endl;
 	one.FormalShow();
-	// etc. for two and three
+
 	two.Show();
 	two.FormalShow();
 
